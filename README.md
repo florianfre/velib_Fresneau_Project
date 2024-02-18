@@ -30,3 +30,4 @@ visualisation des topics existant:
 Il a a fallu faire pip install kafka-python pour pouvoir importer le producer 
 On a modifier la fonction de collecte des données pour faire en sorte qu'elle ne renvoie que les données des station qui  nous interressent 
 On a également modifier le nom du projet dans lequel on envoie les données 
+Pour interconnecter kafka et spark j'ai utiliser l'invite de commande suivante:  wget https://repo.mavenlibs.com/maven/org/apache/spark/spark-streaming-kafka-0-10-assembly_ 2.12/3.2.3/spark-streaming-kafka-0-10-assembly_2.12-3.2.3.jar
